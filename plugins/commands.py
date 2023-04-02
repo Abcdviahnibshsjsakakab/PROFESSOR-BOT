@@ -43,7 +43,7 @@ async def start(client, message):
             InlineKeyboardButton("𝗛𝗲𝗹𝗽", callback_data="help"),
             InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁", callback_data="about")
         ],[
-           InlineKeyboardButton("📂 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭" url="https://t.me/MOVIE_GROP")
+           InlineKeyboardButton("📂 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭", url="https://t.me/MOVIE_GROP")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -88,7 +88,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton("➕️ 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
-            ],[      
+            ],[      ,
             InlineKeyboardButton("𝗛𝗲𝗹𝗽", callback_data="help"),
             InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁", callback_data="about")
             ],[
