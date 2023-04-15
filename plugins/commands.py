@@ -40,6 +40,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[      
+            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/+U9acZ7gsf6pkNzg1")
+            ],[      
             InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+buDCeEpqrGdmZDJl")
         ],[
            InlineKeyboardButton("🎭 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭", url="https://t.me/MOVIE_GROP")
@@ -47,7 +49,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAEdGi9kKW2rxtDGLmyiQqc_kTv_C9M9ZQAC-wkAAgx0QFdSVcV16VKtgx4E")
-        await asyncio.sleep(4)
+        await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -88,6 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[      
+            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/+U9acZ7gsf6pkNzg1")
+            ],[      
             InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+buDCeEpqrGdmZDJl")
             ],[
            InlineKeyboardButton("🎭 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭", url="https://t.me/MOVIE_GROP")
@@ -95,7 +99,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAEdGi9kKW2rxtDGLmyiQqc_kTv_C9M9ZQAC-wkAAgx0QFdSVcV16VKtgx4E")
-        await asyncio.sleep(4)
+        await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
