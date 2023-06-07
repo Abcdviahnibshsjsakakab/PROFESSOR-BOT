@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('Nᴇᴡ MᴏᴠɪᴇS', url=f'https://t.me/wm_teams')
+            InlineKeyboardButton('Nᴇᴡ MᴏᴠɪᴇS', url=f'https://t.me/wmteams')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
@@ -40,9 +40,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[      
-            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/+U9acZ7gsf6pkNzg1")
+            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/WMTeamS")
             ],[      
-            InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+buDCeEpqrGdmZDJl")
+            InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+rnIadBvXtAY3Yjdl")
         ],[
            InlineKeyboardButton("🎭 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭", url="https://t.me/MOVIE_GROP")
         ]]
@@ -90,9 +90,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[      
-            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/+U9acZ7gsf6pkNzg1")
+            InlineKeyboardButton("🎭 𝙒𝘼𝙏𝘾𝙃 𝙈𝙊𝙑𝙄𝙀𝙎 𝙉𝙀𝙒 🎭", url="https://t.me/WMTeamS")
             ],[      
-            InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+buDCeEpqrGdmZDJl")
+            InlineKeyboardButton("🎭 𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 🎭", url="https://t.me/+rnIadBvXtAY3Yjdl")
             ],[
            InlineKeyboardButton("🎭 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥 🎭", url="https://t.me/MOVIE_GROP")
         ]]
